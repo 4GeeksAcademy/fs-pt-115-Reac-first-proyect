@@ -1,6 +1,6 @@
 const Personajes = ({rol, funciones, clases, imagen}) => {
     return (
-        <div className="card col-4-md-12" style={{width: "18rem" }}>
+        <div className="card col-md-4 col-sm-12 " style={{}}>
             <img src={imagen} className="card-img-top" alt="Personaje" />
             <div className="card-body">
                 <h5 className="card-title">{rol}</h5>
